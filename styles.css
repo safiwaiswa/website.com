@@ -282,6 +282,8 @@ padding: 20px;
 
 
 
+
+
  @media(min-width: 1199.98px){
 
 #services h1{
@@ -355,4 +357,13 @@ color:red;
        }
 
 
+}
+
+.job-advt h2{
+     animation: popup 3s ease-in-out 4s infinite forwards;
+}
+
+@keyframes popup {
+    0%{ opacity: 0; transform: scale(0.3); color: yellowgreen;}
+    100%{ opacity: 1; transform: scale(1);}
 }
